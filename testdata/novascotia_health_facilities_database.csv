@@ -1,0 +1,175 @@
+index,facility_name,odhf_facility_type,provider,street_no,street_name,postal_code,city,province,CSDname,CSDuid,Pruid,latitude,longitude
+0,Aberdeen Hospital - New Glasgow,Hospitals,Public Health Agency of Canada,835,east river rd,B2H 3S6,new glasgow,ns,New Glasgow,1212014,12,45.573042,-62.642895
+1,Alderwood,Nursing and residential care facilities,Province of Nova Scotia,89,alderewood lane,B0E 1B0,baddeck,ns,Victoria - Subd. B,1218001,12,46.09560382,-60.7655569
+2,All Saints Springhill Hospital,Hospitals,Public Health Agency of Canada,10,princess st,B0M 1X0,springhill,ns,Cumberland - Subd. B,1211006,12,45.65028,-64.0501
+3,Annapolis Community Health Centre,Hospitals,Public Health Agency of Canada,821,st george st,B0S 1A0,annapolis royal,ns,Annapolis Royal,1205008,12,44.7366188,-65.5018643
+4,Annapolis Royal Nursing Home Limited,Nursing and residential care facilities,Province of Nova Scotia,9745,highway 8,B0S 1A0,annapolis royal,ns,Annapolis - Subd. A,1205004,12,44.73538941,-65.50017693
+5,Arborstone Enhanced Care,Nursing and residential care facilities,Province of Nova Scotia,126,purcells cove rd,B3P 1B5,halifax,ns,Halifax,1209034,12,44.6328756,-63.60822714
+6,AU LOGIS D METEGHAN LTD.,Nursing and residential care facilities,Province of Nova Scotia,8405,highway 1,B0W 2J0,meteghan,ns,Clare,1203001,12,44.19395069,-66.1529628
+7,Bay Side Home Corporation,Nursing and residential care facilities,Province of Nova Scotia,96,bayside drive,B0W 1E0,barrington,ns,Barrington,1201001,12,43.54844926,-65.59817351
+8,Bayview Memorial Health Centre,Nursing and residential care facilities,Province of Nova Scotia,3375,highway 209,B0M 1A0,advocate harbour,ns,Cumberland - Subd. A,1211001,12,45.3462119,-64.79483503
+9,Bissett Court,Nursing and residential care facilities,Province of Nova Scotia,74,chameau crescent,B2W 0H5,cole harbour,ns,Halifax,1209034,12,44.67789912,-63.49031476
+10,Blomidon Court,Nursing and residential care facilities,Province of Nova Scotia,58,jessicas way,B4P 0B2,greenwich,ns,Kings - Subd. D,1207021,12,45.07640112,-64.40682884
+11,Buchanan Memorial Community Health Centre,Hospitals,Canadian Institute for Health Information,32610,cabot trail,B0C 1N0,neils harbour,ns,Victoria - Subd. A,1218006,12,46.81057,-60.334327
+12,Canso Seaside Manor,Nursing and residential care facilities,Province of Nova Scotia,1748,union street,B0H 1H0,canso,ns,Guysborough,1213004,12,45.33262821,-60.98400465
+13,Cape Breton Regional Hospital,Hospitals,Public Health Agency of Canada,1482,george st,B1P 1P3,sydney,ns,Cape Breton,1217030,12,46.113409,-60.174263
+14,Carefield Manor Ltd,Nursing and residential care facilities,Province of Nova Scotia,1,dryden ave,B1S 1V3,sydney,ns,Cape Breton,1217030,12,46.1708223,-60.1673939
+15,Cedarstone Enhanced Care Limited,Nursing and residential care facilities,Province of Nova Scotia,378,young st,B2N 7H2,truro,ns,Truro,1210006,12,45.35048296,-63.27590922
+16,Celtic Court,Nursing and residential care facilities,Province of Nova Scotia,16,st anthony drive,B1S 2R5,sydney,ns,Cape Breton,1217030,12,46.12197357,-60.19465838
+17,Centennial Villa,Nursing and residential care facilities,Province of Nova Scotia,258,church st,B4H 3C9,amherst,ns,Amherst,1211011,12,45.82402994,-64.18990713
+18,Chignecto Manor,Nursing and residential care facilities,Province of Nova Scotia,24,bayview manor road,B0M 1A0,advocate harbour,ns,Cumberland - Subd. A,1211001,12,45.33572452,-64.77821416
+19,Clarmar Residential Care Facility,Nursing and residential care facilities,Province of Nova Scotia,200,main street,B2X 1S3,dartmouth,ns,Halifax,1209034,12,44.68353015,-63.53262551
+20,Cobequid Community Health Centre,Hospitals,Province of Nova Scotia,40,freer lane,B2X 1S3,sackville,ns,Halifax,1209034,12,44.757207,-63.658994
+21,Colchester East Hants Health Centre,Ambulatory health care services,Province of Nova Scotia,600,abenaki road,B2X 1S3,truro,ns,Truro,1210006,12,45.349105,-63.303475
+22,Colchester Regional Hospital,Hospitals,Public Health Agency of Canada,207,willow st,B2N 5A1,truro,ns,Truro,1210006,12,45.3570969,-63.2928819
+23,Cumberland Regional Health Care Centre,Hospitals,Public Health Agency of Canada,19428,hwy 2,B4H 3Y4,amherst,ns,Cumberland - Subd. C,1211009,12,45.8041086,-64.1968995
+24,Dartmouth General Hospital,Hospitals,Public Health Agency of Canada,325,pleasant st,B2Y 4G8,dartmouth,ns,Halifax,1209034,12,44.6539875,-63.5476214
+25,Debert Court,Nursing and residential care facilities,Province of Nova Scotia,16,dakota road,B0N 1C0,debert,ns,Colchester - Subd. B,1210008,12,45.43524004,-63.45367776
+26,Digby General Hospital,Hospitals,Public Health Agency of Canada,75,warwick st,B0V 1A0,digby,ns,Digby,1203006,12,44.616534,-65.761667
+27,Dominion Community Guest Home,Nursing and residential care facilities,Province of Nova Scotia,79,commercial st,B1G 1B3,dominion,ns,Cape Breton,1217030,12,46.21071558,-60.02235419
+28,Dutch Brook Guest Home,Nursing and residential care facilities,Province of Nova Scotia,2400,highway 327,B1L 1G1,dutch brook,ns,Cape Breton,1217030,12,46.05163944,-60.20140324
+29,Dykeland Lodge,Nursing and residential care facilities,Province of Nova Scotia,124,cottage street,B0N 2T0,windsor,ns,Windsor,1208002,12,44.9797639,-64.12698544
+30,East Cumberland Lodge,Nursing and residential care facilities,Province of Nova Scotia,262,gulf shore road,B0K 1L0,pugwash,ns,Cumberland - Subd. D,1211014,12,45.85652617,-63.65756956
+31,Eastern Kings Memorial Community Health Centre,Ambulatory health care services,Province of Nova Scotia,23,earnscliffe avenue,B0K 1L0,wolfville,ns,Wolfville,1207024,12,45.08760375,-64.37074372
+32,Eastern Memorial Hospital,Hospitals,Public Health Agency of Canada,1746,union st,B0H 1H0,canso,ns,Guysborough,1213004,12,45.3329637,-60.9838126
+33,Eastern Shore Memorial Hospital,Hospitals,Public Health Agency of Canada,22637,rte 7,B0J 3B0,sheet harbour,ns,Halifax,1209034,12,44.920899,-62.532983
+34,Elk Court,Nursing and residential care facilities,Province of Nova Scotia,91,carter road,B0N 1C0,brookfield,ns,Colchester - Subd. C,1210001,12,45.2580136,-63.2772736
+35,Evergreen Home for Special Care,Nursing and residential care facilities,Province of Nova Scotia,655,park st,B4N 3V7,kentville,ns,Kentville,1207012,12,45.07629159,-64.54005837
+36,Fishermen s Memorial Hospital,Hospitals,Public Health Agency of Canada,14,high st,B0J 2C0,lunenburg,ns,Lunenburg,1206006,12,44.382276,-64.326952
+37,Foyer Celeste Inc,Nursing and residential care facilities,Province of Nova Scotia,8064,highway 31,B0W 2J0,meteghan,ns,Clare,1203001,12,44.18382208,-66.1695472
+38,FOYER PÃƒÆ’Ã‹â€ RE FISET,Nursing and residential care facilities,Province of Nova Scotia,15092,cabot trail,B0E 1H0,cheticamp,ns,Inverness - Subd. A,1215011,12,46.6235201,-61.0165357
+39,Gables Lodge Limited,Nursing and residential care facilities,Province of Nova Scotia,260,church st,B4H 3C9,amherst,ns,Amherst,1211011,12,45.82493255,-64.18951872
+40,Glace Bay Healthcare Facility,Hospitals,Public Health Agency of Canada,300,south st,B1A 1W5,glace bay,ns,Cape Breton,1217030,12,46.183211,-59.938572
+41,Glasgow Hall - Parklands at the Lakes Limited,Nursing and residential care facilities,Province of Nova Scotia,76,baker dr,B2W 0C7,dartmouth,ns,Halifax,1209034,12,44.66571626,-63.53063283
+42,Glen Haven Manor,Nursing and residential care facilities,Province of Nova Scotia,739,east river rd,B2H 5E9,new glasgow,ns,New Glasgow,1212014,12,45.57493525,-62.6439357
+43,Grand View Manor,Nursing and residential care facilities,Province of Nova Scotia,110,commercial street,B0P 1E0,berwick,ns,Kings - Subd. A,1207001,12,45.03538522,-64.72859639
+44,Haliburton Place,Nursing and residential care facilities,Province of Nova Scotia,89,payzant drive,B0N 2T0,windsor,ns,Windsor,1208002,12,44.98638355,-64.12037375
+45,Hants Community Hospital,Hospitals,Public Health Agency of Canada,89,payzant drive,B0N 2T0,windsor,ns,Windsor,1208002,12,44.986514,-64.120414
+46,Harbour View Hospital,Hospitals,Province of Nova Scotia,22,richard street,B1V 2H7,sydney mines,ns,Cape Breton,1217030,12,46.23474447,-60.22220735
+47,Harbour View Haven,Nursing and residential care facilities,Province of Nova Scotia,25,blockhouse hill rd,B0J 2C0,lunenburg,ns,Lunenburg,1206006,12,44.3770737,-64.30247321
+48,Harbourstone Enhanced Care Limited,Nursing and residential care facilities,Province of Nova Scotia,84,kenwood dr,B1S 3V7,sydney,ns,Cape Breton,1217030,12,46.10704016,-60.21381807
+49,Harbourview Lodge Continuing Care Centre,Nursing and residential care facilities,Province of Nova Scotia,22639,highway 7,B0J 3B0,sheet harbour,ns,Halifax,1209034,12,44.920405,-62.53265876
+50,Heart of the Valley - Long Term Care Centre,Nursing and residential care facilities,Province of Nova Scotia,89,north street,B0S 1P0,middleton,ns,Middleton,1205016,12,44.95050711,-65.06681003
+51,High - Crest Home New Glasgow,Nursing and residential care facilities,Province of Nova Scotia,253,forbes st,B2H 4P5,new glasgow,ns,New Glasgow,1212014,12,45.58562993,-62.6418534
+52,High - Crest Place,Nursing and residential care facilities,Province of Nova Scotia,222,provost st,B2H 2R3,new glasgow,ns,New Glasgow,1212014,12,45.58571686,-62.64514469
+53,High - Crest Sherbrooke Home for Special Care,Nursing and residential care facilities,Province of Nova Scotia,53,court street,B0J 3C0,sherbrooke,ns,St. Mary s,1213001,12,45.14081795,-61.98116323
+54,High - Crest Springhill Home for Special Care Ltd,Nursing and residential care facilities,Province of Nova Scotia,11,sproul street,B0M 1X0,springhill,ns,Cumberland - Subd. B,1211006,12,45.649513,-64.0493362
+55,Highland Crest Residential Care Facility,Nursing and residential care facilities,Province of Nova Scotia,44,hillcrest st,B2G 1Z3,antigonish,ns,Antigonish,1214002,12,45.6176844,-61.99047184
+56,Highland Manor,Nursing and residential care facilities,Province of Nova Scotia,175,new haven road,B0C 1N0,neils harbour,ns,Victoria - Subd. A,1218006,12,46.81096704,-60.32216494
+57,Hillside Pines Home for Special Care,Nursing and residential care facilities,Province of Nova Scotia,77,exhibition dr,B4V 3K6,bridgewater,ns,Bridgewater,1206004,12,44.36887146,-64.52064795
+58,Hillsview Acres,Nursing and residential care facilities,Province of Nova Scotia,14,middlefield road,B0T 1E0,greenfield,ns,Queens,1204010,12,44.20916426,-64.86372431
+59,Inverary Manor,Nursing and residential care facilities,Province of Nova Scotia,72,maple,B0E 1N0,inverness,ns,Inverness - Subd. B,1215006,12,46.22671368,-61.30384755
+60,Inverness Consolidated Memorial Hospital,Hospitals,Canadian Institute for Health Information,39,james street,B0E 1N0,inverness,ns,Inverness - Subd. B,1215006,12,46.226968,-61.304843
+61,Ivey s Terrace Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,11,centennial drive,B0K 1X0,trenton,ns,Trenton,1212016,12,45.62311588,-62.6314136
+62,Ivy Meadows Continuing Care Centre,Nursing and residential care facilities,Province of Nova Scotia,125,knowles crescent,B4G 1E7,beaverbank,ns,Halifax,1209034,12,44.90232904,-63.71091493
+63,Iwk Health Centre,Hospitals,Public Health Agency of Canada,5980,university ave,B3K 6R8,halifax,ns,Halifax,1209034,12,44.637993,-63.583484
+64,Karlaine Place,Nursing and residential care facilities,Province of Nova Scotia,104,pictou rd,B2N 2S3,bible hill,ns,Colchester - Subd. B,1210008,12,45.37554221,-63.25979318
+65,Kings Regional Health & Regional Rehabilitation Centre,Nursing and residential care facilities,Province of Nova Scotia,1349,county home road,B2N 2S3,cambridge,ns,Kings - Subd. A,1207001,12,45.057382,-64.666718
+66,Lillian Fraser Memorial Hospital,Hospitals,Public Health Agency of Canada,110,blair ave,B0K 1V0,tatamagouche,ns,Colchester - Subd. B,1210008,12,45.711524,-63.296239
+67,Lohnes Rest Home,Nursing and residential care facilities,Province of Nova Scotia,97,lakeview dr,B0R 1A0,barss corner,ns,Lunenburg,1206001,12,44.58428314,-64.64425866
+68,Mahone Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,640,main,B0J 2E0,mahone bay,ns,Mahone Bay,1206008,12,44.4477332,-64.3771694
+69,Maple Hill Manor,Nursing and residential care facilities,Province of Nova Scotia,700,king st,B1H 3Z5,new waterford,ns,Cape Breton,1217030,12,46.24071186,-60.08543333
+70,Maplestone Enhanced Care Limited,Nursing and residential care facilities,Province of Nova Scotia,245,main ave,B3M 1B7,halifax,ns,Halifax,1209034,12,44.65374305,-63.64920759
+71,Maritime Odd Fellows Home,Nursing and residential care facilities,Province of Nova Scotia,143,haliburton rd,B0K 1H0,pictou,ns,Pictou,1212004,12,45.67329614,-62.72274498
+72,Mary s Abide-a-While Home Ltd,Nursing and residential care facilities,Province of Nova Scotia,188,water,B0T 1W0,shelburne,ns,Shelburne,1201008,12,43.76568776,-65.32470646
+73,Melville Gardens Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,11,ramsgate lane,B3P 2S9,halifax,ns,Halifax,1209034,12,44.63200392,-63.61463688
+74,Melville Lodge,Nursing and residential care facilities,Province of Nova Scotia,50,shoreham lane,B3P 2R3,halifax,ns,Halifax,1209034,12,44.62956069,-63.61525121
+75,Milford Haven Corporation,Nursing and residential care facilities,Province of Nova Scotia,10558,route 16,B0H 1N0,guysborough,ns,Guysborough,1213004,12,45.40211233,-61.50709367
+76,Miner s Memorial Manor,Nursing and residential care facilities,Province of Nova Scotia,15,lorne st,B1V 3B9,sydney mines,ns,Cape Breton,1217030,12,46.23959752,-60.21829662
+77,Mitchell s Rest Home,Nursing and residential care facilities,Province of Nova Scotia,5153,highway 14,B1V 3B9,upper nine mile river,ns,East Hants,1208008,12,45.08188105,-63.64660355
+78,Mountain Lea Lodge,Nursing and residential care facilities,Province of Nova Scotia,170,church street,B0S 1C0,bridgetown north,ns,Annapolis - Subd. B,1205009,12,44.84888674,-65.29260802
+79,Musquodoboit Valley Home for Special Care Association,Nursing and residential care facilities,Province of Nova Scotia,126,higginsville road,B0N 1X0,middle musquodoboit,ns,Halifax,1209034,12,45.03997373,-63.13996247
+80,Musquodoboit Valley Memorial Hospital,Hospitals,Public Health Agency of Canada,492,archibald brook rd,B0N 1X0,middle musquodoboit,ns,Halifax,1209034,12,45.0404637,-63.1404927
+81,My Cape Breton Home for Seniors - North Sydney,Nursing and residential care facilities,Province of Nova Scotia,77,campbell street,B1P 6J1,north sydney,ns,Cape Breton,1217030,12,46.20477157,-60.26941415
+82,My Cape Breton Home for Seniors - Sydney,Nursing and residential care facilities,Province of Nova Scotia,137,riverdale drive,B1R 0A9,sydney,ns,Cape Breton,1217030,12,46.11836193,-60.22143907
+83,Nakile Home for Special Care,Nursing and residential care facilities,Province of Nova Scotia,35,nakile drive,B0W 1W0,argyle,ns,Argyle,1202001,12,43.79122868,-65.86173664
+84,New Visions Home for Seniors,Nursing and residential care facilities,Province of Nova Scotia,4507,highway 1,B0P 1E0,berwick,ns,Kings - Subd. A,1207001,12,45.03433004,-64.72327232
+85,New Waterford Consolidated Hospital,Hospitals,Public Health Agency of Canada,716,king st,B1H 3Z5,new waterford,ns,Cape Breton,1217030,12,46.240138,-60.085691
+86,North Cumberland Memorial Hospital,Hospitals,Public Health Agency of Canada,260,church st,B0K 1L0,pugwash,ns,Cumberland - Subd. D,1211014,12,45.856298,-63.65887
+87,North Queens Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,9565,highway 8,B0T 1B0,caledonia,ns,Queens,1204010,12,44.37646364,-65.0148132
+88,Northside Community Guest Home,Nursing and residential care facilities,Province of Nova Scotia,11,queen st,B2A 1A2,north sydney,ns,Cape Breton,1217030,12,46.19500767,-60.26263014
+89,Northside General Hospital,Hospitals,Public Health Agency of Canada,520,purves st,B2A 3M4,north sydney,ns,Cape Breton,1217030,12,46.218293,-60.235619
+90,Northumberland Hall Continuing Care Residence,Nursing and residential care facilities,Province of Nova Scotia,189,willow street,B4H 3W6,amherst,ns,Amherst,1211011,12,45.82921455,-64.18958683
+91,Northwoodcare Bedford Incorporated- Christina & Hedley g. Ivany Place,Nursing and residential care facilities,Province of Nova Scotia,123,gary martin drive,B4B 0G7,bedford,ns,Halifax,1209034,12,44.72371655,-63.70626578
+92,Northwoodcare Incorporated,Nursing and residential care facilities,Province of Nova Scotia,2615,northwood terr,B3K 3S5,halifax,ns,Halifax,1209034,12,44.65718076,-63.59204668
+93,Nova Scotia Environmental Health Centre,Ambulatory health care services,Province of Nova Scotia,3064,highway 2,B3K 3S5,fall river,ns,Halifax,1209034,12,44.809976,-63.605992
+94,Nova Scotia Rehabilitation Centre,Hospitals,Province of Nova Scotia,1341,summer street,B3K 3S5,halifax,ns,Halifax,1209034,12,44.639724,-63.582158
+95,Oakwood Terrace,Nursing and residential care facilities,Province of Nova Scotia,10,mount hope avenue,B2Y 4K1,dartmouth,ns,Halifax,1209034,12,44.65352971,-63.54451843
+96,Ocean View Continuing Care Centre,Nursing and residential care facilities,Province of Nova Scotia,1909,caldwell road,B3G 1M4,eastern passage,ns,Halifax,1209034,12,44.60672388,-63.47021578
+97,Olson s Glo Estate Home for Special Care,Nursing and residential care facilities,Province of Nova Scotia,143,route 304,B4A 4J7,overton,ns,Yarmouth,1202004,12,43.848349,-66.127733
+98,Orchard Court Continuing Care Residence,Nursing and residential care facilities,Province of Nova Scotia,155,river street,B4N 1G8,kentville,ns,Kentville,1207012,12,45.07927263,-64.50264685
+99,Parkstone Enhanced Care Limited,Nursing and residential care facilities,Province of Nova Scotia,156,parkland drive,B3S 1N9,halifax,ns,Halifax,1209034,12,44.66338256,-63.67207336
+100,Peter s Place (Pjd Rehab Housing Inc.),Nursing and residential care facilities,Province of Nova Scotia,326,huey lake road,B0R 1G0,pleasnantville,ns,Lunenburg,1206001,12,44.25792189,-64.41615526
+101,Peter s Place Halifax - Pjd Rehab Housing Incorporated,Nursing and residential care facilities,Province of Nova Scotia,12,swan crescent,B3M 1T6,halifax,ns,Halifax,1209034,12,44.66905884,-63.65842992
+102,PONT DU MARAIS HOME LTD,Nursing and residential care facilities,Province of Nova Scotia,1526,highway 335,B0W 2C0,lower west pubnico,ns,Argyle,1202001,12,43.63821368,-65.80187492
+103,Port Hawkesbury Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,2,macquarrie drive extension,B9A 3A2,port hawkesbury,ns,Port Hawkesbury,1215002,12,45.619351,-61.3537771
+104,Precision Health - 16 Rannoch Road,Nursing and residential care facilities,Province of Nova Scotia,16,rannoch road,B9A 3A2,dartmouth,ns,Halifax,1209034,12,44.69066361,-63.53563314
+105,Precision Health - 24 Kincardine Street,Nursing and residential care facilities,Province of Nova Scotia,24,kincardine street,B2X 1H9,dartmouth,ns,Halifax,1209034,12,44.69142556,-63.53708654
+106,Precision Health - Washmill Lake Drive Appartments,Nursing and residential care facilities,Province of Nova Scotia,599,washmill lake drive,B3G 1M4,halifax,ns,Halifax,1209034,12,44.65001241,-63.65366567
+107,Qeii - Halifax Infirmary Site,Hospitals,Province of Nova Scotia,1796,summer street,B3G 1M4,halifax,ns,Halifax,1209034,12,44.645784,-63.586389
+108,Qeii - Victoria General (Vg) Site,Hospitals,Province of Nova Scotia,1278,south park street,B3G 1M4,halifax,ns,Halifax,1209034,12,44.63840489,-63.58040241
+109,Queen Elizabeth Ii Health Sciences Centre,Hospitals,Public Health Agency of Canada,1276,south park st,B3K 6A3,halifax,ns,Halifax,1209034,12,44.638422,-63.581341
+110,Queens General Hospital,Hospitals,Public Health Agency of Canada,175,school st,B0T 1K0,liverpool,ns,Queens,1204010,12,44.037653,-64.705594
+111,Queens Manor,Nursing and residential care facilities,Province of Nova Scotia,20,hollands dr,B0T 1K0,liverpool,ns,Queens,1204010,12,44.03617567,-64.70679145
+112,r.c. Macgillivray Guest Home,Nursing and residential care facilities,Province of Nova Scotia,25,xavier dr,B1S 2R9,sydney,ns,Cape Breton,1217030,12,46.12356627,-60.19425513
+113,Richmond Villa,Nursing and residential care facilities,Province of Nova Scotia,9361,pepperall street,B0E 3B0,st peters,ns,Richmond - Subd. A,1216006,12,45.65842332,-60.87480584
+114,Rk Macdonald Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,64,pleasant street,B2G 1W7,antigonish,ns,Antigonish,1214002,12,45.62516431,-61.99132033
+115,Rosedale Home for Special Care,Nursing and residential care facilities,Province of Nova Scotia,4927,highway trunk 10,B0R 1E0,new germany,ns,Lunenburg,1206001,12,44.53721096,-64.71115891
+116,Roseway Hospital,Hospitals,Public Health Agency of Canada,1606,sandy point rd,B0T 1W0,shelburne,ns,Shelburne,1201006,12,43.749523,-65.310347
+117,Roseway Manor Inc.,Nursing and residential care facilities,Province of Nova Scotia,1604,lake road,B0T 1W0,sandy point,ns,Shelburne,1201006,12,43.74876507,-65.30896095
+118,Ryan Hall,Nursing and residential care facilities,Province of Nova Scotia,313,hollingsworth drive,B4V 0A3,bridgewater,ns,Bridgewater,1206004,12,44.38345744,-64.50550609
+119,Saint Vincent s Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,2080,windsor st,B3K 5B2,halifax,ns,Halifax,1209034,12,44.64791631,-63.59419064
+120,Saunders Rest Home,Nursing and residential care facilities,Province of Nova Scotia,9,freeman street,B0S 1C0,bridgetown,ns,Annapolis - Subd. B,1205009,12,44.84085709,-65.28885285
+121,Seabright Rest Home Ltd.,Nursing and residential care facilities,Province of Nova Scotia,11625,peggys cove road,B3Z 2Y1,seabright,ns,Halifax,1209034,12,44.62317275,-63.92622043
+122,Seaview Manor,Nursing and residential care facilities,Province of Nova Scotia,275,south street,B1A 1W6,glace bay,ns,Cape Breton,1217030,12,46.18448967,-59.93643857
+123,Serenity Lodge,Nursing and residential care facilities,Province of Nova Scotia,39,russell mckeen drive,B2T 1A7,enfield,ns,East Hants,1208008,12,44.95087375,-63.53505955
+124,Shiretown Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,280,haliburton rd,B0K 1H0,pictou,ns,Pictou,1212004,12,45.67775737,-62.7295376
+125,Shoreham Village,Nursing and residential care facilities,Province of Nova Scotia,50,shoreham village crescent,B0J 1J0,chester,ns,Chester,1206009,12,44.54485891,-64.23220467
+126,Sisters of St. Martha,Nursing and residential care facilities,Province of Nova Scotia,45,bay street,B2G 2G6,antgonish,ns,Antigonish,1214002,12,45.63114048,-61.98085488
+127,Soldiers Memorial Hospital,Hospitals,Canadian Institute for Health Information,462,main street,B0S 1P0,middleton,ns,Annapolis - Subd. B,1205009,12,44.882577,-65.156992
+128,South Cumberland Community Care Centre,Hospitals,Public Health Agency of Canada,50,jenks ave,B0M 1S0,parrsboro,ns,Parrsboro,1211002,12,45.409197,-64.325971
+129,South Shore Regional Hospital,Hospitals,Public Health Agency of Canada,90,glen allan dr,B4V 3S6,bridgewater,ns,Bridgewater,1206004,12,44.3831672,-64.5105957
+130,Southview Guest Home Ltd.,Nursing and residential care facilities,Province of Nova Scotia,2027,highway 28,B1N 3H6,sydney,ns,Cape Breton,1217030,12,46.1862368,-60.19756978
+131,St. Anne Community and Nursing Care Centre,Nursing and residential care facilities,Province of Nova Scotia,2313,highway 206,B0E 1A0,arichat,ns,Richmond - Subd. C,1216001,12,45.51104211,-61.03191108
+132,St. Martha s Regional Hospital,Hospitals,Public Health Agency of Canada,25,bay st,B2G 2G5,antigonish,ns,Antigonish,1214002,12,45.627949,-61.980072
+133,St. Mary s Memorial Hospital,Hospitals,Public Health Agency of Canada,91,hospital rd,B0J 3C0,sherbrooke,ns,St. Mary s,1213001,12,45.147814,-61.98193
+134,Strait Richmond Hospital,Hospitals,Public Health Agency of Canada,138,rr 1,B0E 1J0,cleveland,ns,Richmond - Subd. A,1216006,12,45.617084,-61.222926
+135,Sunshine Personal Home Care Inc.,Nursing and residential care facilities,Province of Nova Scotia,38 a,withrod dr,B3N 1B1,halifax,ns,Halifax,1209034,12,44.63301289,-63.62351235
+136,Surf Lodge Community Continuing Care Centre,Nursing and residential care facilities,Province of Nova Scotia,73,howe street,B0T 1L0,lockeport,ns,Lockeport,1201009,12,43.70157259,-65.11747788
+137,Sutherland Harris Memorial Hospital,Hospitals,Public Health Agency of Canada,222,haliburton rd,B0K 1H0,pictou,ns,Pictou,1212004,12,45.67663,-62.727086
+138,Taigh Na Mara Facility,Nursing and residential care facilities,Province of Nova Scotia,974,main street,B1A 4Z8,glace bay,ns,Cape Breton,1217030,12,46.19945045,-59.9776869
+139,Taigh Solas,Nursing and residential care facilities,Province of Nova Scotia,520,purves street,B2A 3M4,north sydney,ns,Cape Breton,1217030,12,46.21820836,-60.23555151
+140,the Admiral Long Term Care Centre,Nursing and residential care facilities,Province of Nova Scotia,6,admiral street,B2X 1W4,dartmouth,ns,Halifax,1209034,12,44.68431853,-63.54545574
+141,the Birches,Nursing and residential care facilities,Province of Nova Scotia,7704,highway 7,B0J 2L0,musquodoboit harbour,ns,Halifax,1209034,12,44.78303535,-63.15833345
+142,the Cove Guest Home,Nursing and residential care facilities,Province of Nova Scotia,320,alexandra street,B1S 2G1,sydney,ns,Cape Breton,1217030,12,46.12106735,-60.19770963
+143,the East Coast Forensic Hospital,Hospitals,Public Health Agency of Canada,88,gloria mccluskey ave,B3B 2B8,dartmouth,ns,Halifax,1209034,12,44.7213432,-63.5916342
+144,the Heritage House,Nursing and residential care facilities,Province of Nova Scotia,55,high road,B0E 2W0,port hood,ns,Inverness - Subd. B,1215006,12,46.01450107,-61.52808448
+145,the Magnolia,Nursing and residential care facilities,Province of Nova Scotia,416,highway 2,B2T 1E1,enfield,ns,East Hants,1208008,12,44.95132751,-63.52747659
+146,the Meadows - Tidal View Manor,Nursing and residential care facilities,Province of Nova Scotia,339,pleasant st,B5A 2K9,yarmouth,ns,Yarmouth,1202006,12,43.85050874,-66.1030679
+147,the Mira,Nursing and residential care facilities,Province of Nova Scotia,426,young st,B2N 7B1,truro,ns,Truro,1210006,12,45.34816341,-63.27478112
+148,the Nova Scotia Hospital,Hospitals,Public Health Agency of Canada,300,pleasant st,B2Y 3Z9,dartmouth,ns,Halifax,1209034,12,44.6510535,-63.5490045
+149,the Sagewood Continuing Care Centre,Nursing and residential care facilities,Province of Nova Scotia,345,cobequid road,B4C 4E6,sackville,ns,Halifax,1209034,12,44.76140286,-63.65201397
+150,Tibbetts Home for Special Care,Nursing and residential care facilities,Province of Nova Scotia,15074,highway 1,B0P 1R0,wilmot,ns,Annapolis - Subd. C,1205014,12,44.97704128,-64.96906184
+151,Tideview Terrace,Nursing and residential care facilities,Province of Nova Scotia,74,pleasant street,B0V 1A0,conway,ns,Digby,1203006,12,44.60922277,-65.76329329
+152,Townsview Estates,Nursing and residential care facilities,Province of Nova Scotia,310,abenaki road,B2N 5Z5,millbrook 27,ns,Millbrook 27,1210003,12,45.33779325,-63.30136407
+153,Twin Oaks Memorial Hospital,Hospitals,Public Health Agency of Canada,7702,hwy 7,B0J 2L0,musquodoboit harbour,ns,Halifax,1209034,12,44.783235,-63.158434
+154,Valley Regional Hospital,Hospitals,Public Health Agency of Canada,150,exhibition st,B4N 5E3,kentville,ns,Kings - Subd. B,1207016,12,45.0840529,-64.5005906
+155,Valley View Villa,Nursing and residential care facilities,Province of Nova Scotia,6125,trafalgar road,B4N 5E3,stellarton,ns,Pictou - Subd. B,1212006,12,45.53959114,-62.667273
+156,Victoria County Memorial Hospital,Hospitals,Canadian Institute for Health Information,30,old margaree road,B0E 1B0,baddeck,ns,Victoria - Subd. B,1218001,12,46.100264,-60.756029
+157,Victoria Haven Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,5,third st,B1A 5V2,glace bay,ns,Cape Breton,1217030,12,46.21158569,-59.96484069
+158,Victoria Manor,Nursing and residential care facilities,Province of Nova Scotia,14,victoria st w,B4H 1B8,amherst,ns,Amherst,1211011,12,45.82972917,-64.21463348
+159,Victoria Park Guest Home,Nursing and residential care facilities,Province of Nova Scotia,350,king street,B0N 2T0,windsor,ns,Windsor,1208002,12,44.99277128,-64.13321305
+160,Villa Acadienne,Nursing and residential care facilities,Province of Nova Scotia,8403,highway 1,B0W 2J0,meteghan,ns,Clare,1203001,12,44.19370413,-66.15414223
+161,Villa Saint Joseph-Du-Lac,Nursing and residential care facilities,Province of Nova Scotia,255,highway 1,B5A 4A5,dayton,ns,Yarmouth,1202004,12,43.8692446,-66.11164311
+162,Vimy Court,Nursing and residential care facilities,Province of Nova Scotia,130,vimy road,B2N 4J6,bible hill,ns,Colchester - Subd. B,1210008,12,45.3793295,-63.2606517
+163,Wedgewood House for Seniors Limited,Nursing and residential care facilities,Province of Nova Scotia,19,leverett avenue,B4N 2K5,kentville,ns,Kentville,1207012,12,45.07685084,-64.49156123
+164,Western Kings Memorial Health Centre,Ambulatory health care services,Public Health Agency of Canada,121,orchard st,B0P 1E0,berwick,ns,Berwick,1207004,12,45.0366969,-64.736579
+165,White Birches Retirement Residence,Nursing and residential care facilities,Province of Nova Scotia,189,fox ranch rd,B4H 3Y3,amherst,ns,Cumberland - Subd. C,1211009,12,45.84141239,-64.17934846
+166,White Hills Long Term Care Centre,Nursing and residential care facilities,Province of Nova Scotia,297,pockwock road,B4B 1N5,hammonds plains,ns,Halifax,1209034,12,44.744604,-63.805761
+167,Willow Lodge,Nursing and residential care facilities,Province of Nova Scotia,100,blair avennue,B0K 1V0,tatamagouche,ns,Colchester - Subd. B,1210008,12,45.71116398,-63.29718836
+168,Willows Manor Limited,Nursing and residential care facilities,Province of Nova Scotia,2844,highway 2,B0N 2H0,shubenacadie,ns,East Hants,1208008,12,45.088376,-63.40760294
+169,Windsor Elms Village for Continuing Care Society,Nursing and residential care facilities,Province of Nova Scotia,174,dyke road,B0N 2T0,windsor,ns,West Hants,1208001,12,44.99494045,-64.17090584
+170,Wolfville Elms,Nursing and residential care facilities,Province of Nova Scotia,701,main street,B4P 2N4,wolfville,ns,Wolfville,1207024,12,45.0868507,-64.3790725
+171,Wolfville Nursing Home,Nursing and residential care facilities,Province of Nova Scotia,601,main street,B4P 1E9,wolfville,ns,Wolfville,1207024,12,45.08978053,-64.37227286
+172,Wynn Park Villa,Nursing and residential care facilities,Province of Nova Scotia,32,windor way,B2N 0B4,truro,ns,Truro,1210006,12,45.35569122,-63.30189093
+173,Yarmouth Regional Hospital,Hospitals,Public Health Agency of Canada,60,vancouver st,B5A 2P5,yarmouth,ns,Yarmouth,1202006,12,43.8506469,-66.1217646
