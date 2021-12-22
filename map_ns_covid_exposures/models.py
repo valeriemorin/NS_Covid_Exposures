@@ -2,6 +2,7 @@ from django.contrib.gis.db import models
 
 # Create your models here.
 
+
 class CovidExposure(models.Model):
     place = models.CharField(max_length=255)
     exposure_from = models.DateTimeField()

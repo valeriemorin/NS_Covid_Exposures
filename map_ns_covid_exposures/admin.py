@@ -5,4 +5,5 @@ from .models import CovidExposure
 
 @admin.register(CovidExposure)
 class CovidExposureAdmin(OSMGeoAdmin):
-    list_display = ('place', 'address', 'type', 'zone', 'last_updated')
+    list_display = ('place', 'exposure_from', 'exposure_to', 'address', 'type', 'zone', 'last_updated', 'location')
+
