@@ -5,6 +5,8 @@ from django.contrib.gis.geos import Point
 from django.contrib.gis.db.models.functions import Distance
 from .models import CovidExposure
 from django.contrib.gis.geos import fromstr
+from Scrapper import scrape_covid_data
+
 
 latitude = 44.94618
 longitude = -65.07206
@@ -32,7 +34,7 @@ def load_data():
         zone = fields[5].strip("\"")
         last_updated = fields[6].strip("\"")
 
-        location = fromstr("POINT(%s %s)" % (fields[8].strip("\"\n"), fields[7].strip("\"")), srid=4326)
+        location = fromstr("POINT(%s %s)" % (fields[8].strip("\n").strip("\""), fields[7].strip("\"")), srid=4326)
 
         covid_exposure(place=place, exposure_from=exposure_from, exposure_to=exposure_to, address=address,
                        type=exposure_type, zone=zone, last_updated=last_updated, location=location).save()
@@ -47,6 +49,9 @@ class Home(generic.ListView):
 
     # Delete contents of the covid exposure table
     model.objects.all().delete()
+
+    # Scrape covid data
+    scrape_covid_data()
 
     # Load the data from the csv
     load_data()
