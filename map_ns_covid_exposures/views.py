@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from django.apps import apps
 from django.shortcuts import render
 from django.views import generic
@@ -6,6 +8,7 @@ from django.contrib.gis.db.models.functions import Distance
 from .models import CovidExposure
 from django.contrib.gis.geos import fromstr
 from Scrapper import scrape_covid_data
+import re
 
 
 latitude = 44.94618
@@ -18,28 +21,33 @@ DATA_FILENAME = 'data.txt'
 
 def load_data():
 
-    covid_exposure = apps.get_model('map_ns_covid_exposures', 'CovidExposure')
+    with open(DATA_FILENAME, 'r') as file:
 
-    file = open(DATA_FILENAME, "r")
-    for line in file:
+        covid_exposure = apps.get_model('map_ns_covid_exposures', 'CovidExposure')
+        covid_exposure_list = []
 
-        fields = line.split("\",\"")
+        for line in file:
 
-        place = fields[0].strip("\"")
-        exposure_from = fields[1].strip("\"")
-        exposure_to = fields[2].strip("\"")
+            fields = line.split("\",\"")
 
-        address = fields[3].strip("\"")
-        exposure_type = fields[4].strip("\"")
-        zone = fields[5].strip("\"")
-        last_updated = fields[6].strip("\"")
+            place = fields[0].strip("0123456789\",")
+            exposure_from = fields[1].strip("\"")
+            exposure_to = fields[2].strip("\"")
 
-        location = fromstr("POINT(%s %s)" % (fields[8].strip("\n").strip("\""), fields[7].strip("\"")), srid=4326)
+            address = fields[3].strip("\"")
+            exposure_type = fields[4].strip("\"")
+            zone = fields[5].strip("\"")
+            last_updated = fields[6].strip("\"")
 
-        covid_exposure(place=place, exposure_from=exposure_from, exposure_to=exposure_to, address=address,
-                       type=exposure_type, zone=zone, last_updated=last_updated, location=location).save()
+            location = fromstr("POINT(%s %s)" % (fields[8].strip("\n").strip("\""), fields[7].strip("\"")), srid=4326)
 
-    file.close()
+            ce = covid_exposure(place=place, exposure_from=exposure_from, exposure_to=exposure_to, address=address,
+                           type=exposure_type, zone=zone, last_updated=last_updated, location=location)
+
+            # append to list of covid_exposures and save at once
+            covid_exposure_list.append(ce)
+
+        return covid_exposure_list
 
 
 # Create your views here.
@@ -54,10 +62,10 @@ class Home(generic.ListView):
     scrape_covid_data()
 
     # Load the data from the csv
-    load_data()
+    model.objects.bulk_create(load_data())
 
     context_object_name = "covid_exposures"
-    queryset = CovidExposure.objects.annotate(distance=Distance("location", user_location)).order_by("distance")
+    queryset = CovidExposure.objects.order_by("id")
     template_name = "covid_exposures/index.html"
 
 

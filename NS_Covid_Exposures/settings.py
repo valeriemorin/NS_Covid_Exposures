@@ -89,7 +89,10 @@ DATABASES = {
         'USER': 'ns_covid_exposures_admin',
         'PASSWORD': 'password123',
         'HOST': 'localhost',
-        'PORT': '5432'
+        'PORT': '5432',
+        'OPTIONS': {
+            'client_encoding': 'UTF8'  # This is the important line
+        }
     }
 }
 
@@ -122,7 +125,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)

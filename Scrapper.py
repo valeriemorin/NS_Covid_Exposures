@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import geopy
 from geopy.geocoders import Nominatim
 from bs4 import BeautifulSoup
@@ -185,6 +187,7 @@ def scrape_covid_data():
     df_for_valerie.astype(str)
 
     print("Exporting to CSV")
+    print(df_for_valerie.head())
     #df_for_valerie.to_csv('C:/Users/morin/Desktop/output/covidlocations.csv', header=False)
 
 

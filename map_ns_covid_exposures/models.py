@@ -4,6 +4,7 @@ from django.contrib.gis.db import models
 
 
 class CovidExposure(models.Model):
+    objects = models.Manager()
     place = models.CharField(max_length=255)
     exposure_from = models.DateTimeField()
     exposure_to = models.DateTimeField()
