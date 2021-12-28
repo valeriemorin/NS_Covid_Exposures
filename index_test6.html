@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Nova Scotia - Covid Exposures</title>
+<!--		<link rel="stylesheet" type="text/css" href="index.css">-->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+		<link href="jquery-ui.css" rel="stylesheet">
+		<style>
+			html {height: 100%} 
+			body {position:absolute; top:0; bottom:0; right:0; left:0;}
+
+			h1 {
+				display:table-cell; 
+				vertical-align:middle
+			}
+
+			#header {
+				width: 100%;
+				height: 20%;
+				background-color: #D8D2CD;
+				text-align: center;
+				display: table;
+			}
+
+			#main_content {
+				width: 100%;
+				height: 80%;
+				padding: 10px;
+				background-color: #99A5A8;
+				border: none;
+			}
+
+			#map_frame {
+				width: 70%;
+				height: 100%;
+				background-color: #2D3C3F;
+				padding: 10px;
+				position: relative;
+			}
+
+			#map {
+				width: 100%;
+				height: 100%;
+			}
+
+			#dashboard {
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+
+			#settings {
+				background-color: #99A5A8;
+				width: 100%;
+				height: 15%;
+				border: none;
+			}
+
+			#date_slider {
+				background-color: #99A5A8;
+				width: 100%;
+				height: 15%;
+				text-align: center;
+			}
+
+			#search_bar {
+				background-color: #79858B;
+				width: 100%;
+				height: 10%;
+				text-align: center;
+			}
+
+			#results {
+				background-color: #D8D2CD;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				overflow:auto;
+			}
+
+			#time-range p {
+			font-family:"Arial", sans-serif;
+			font-size:48px;
+			color:#333;
+			}
+
+			span.slider-time {
+				color: #333;
+				}
+			span.slider-time2 {
+				color: #333;
+				}
+
+
+			.setting_button {
+				width: 100%;
+				height: 100%;
+			}
+			
+			dl {
+			  margin: 0;
+			  padding: 5px 0 0 0;
+			  overflow:hidden; overflow-y:scroll;
+			  height: 300px;
+			}
+
+			dt {
+			  background: #B8C1C8;
+			  border-bottom: 1px solid #989EA4;
+			  border-top: 1px solid #717D85;
+			  color: #FFF;
+			  margin: 0;
+			  padding: 2px 0 0 12px;
+			  position: fixed;
+			}
+
+			dd {
+			  margin: 0;
+			  padding: 0 0 0 12px;
+			  white-space: nowrap;
+			  text-align: center;
+			}
+
+			dd + dd {
+			  border-top: 1px solid #CCC
+			}
+			
+			.fixed-content {
+				
+				position: fixed;
+				height: 200px;
+			}
+			
+
+			* {box-sizing: border-box;}
+
+		</style>
+	</head>
+	
+	<body>
+		<div id="header"><h1>Nova Scotia Covid-19 Exposures</h1></div>
+		
+			
+		<table id="main_content" cellspacing="0" cellpadding="0">
+			<tr>
+				<td id="map_frame">
+					<div id="map"></div>
+					<script>
+						var mymap = L.map('map').setView([45.313807, -62.704017], 7);
+						L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(mymap);
+						
+						/* {% for exposure in covid_exposures %}
+
+							var circle = L.circle([{{ exposure.location.y }}, {{ exposure.location.x }}], {
+								color: 'red',
+								fillColor: '#f03',
+								fillOpacity: 0.5,
+								radius: 10
+							}).addTo(mymap)
+
+						{% endfor %} */
+
+					</script>
+				</td>
+				
+				<td>
+					<table  id="dashboard" cellspacing="0" cellpadding="0">
+						<tr>
+							<td id="settings" >
+								<table style="width:100%; height:100%; text-align:center;" cellspacing="1" cellpadding="1">
+									<tr>
+										<td><button type="button" class="setting_button">View by Zone</button></td>
+										<td><button type="button" class="setting_button">View by Exposure</button></td>
+									</tr>
+									<tr>
+										<td><button type="button" class="setting_button">View by County</button></td>
+										<td><button type="button" class="setting_button">Reset Map Frame</button></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td id=time-range"> <p> Date Range: <span class="slider-time"></span> - <span class="slider-time2"></span></p></td>
+						</tr>
+						<tr>
+							<td>
+							<div id="slider"></div>
+							</td>
+						</tr>
+						<tr><td id="search_bar">Search Bar</td></tr>
+						<tr>
+							<td>
+								<!-- {% if covid_exposures %}
+								<div class="fixed_content">
+									<dl>
+										{% for exposure in covid_exposures %}
+										<dd>{{ exposure.place }}</dd>
+										{% endfor %}
+									</dl>
+								</div>
+								{% endif %} -->
+							</td>
+						</tr>
+					</table>
+
+				</td>
+			</tr>
+		</table>
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script>
+	var dt_from = '2021.12.01';
+	var dt_to = '2021.12.31';
+	var min_val = new Date(dt_from).getTime() / 1000;
+	var max_val = new Date(dt_to).getTime() / 1000;
+	$( "#slider" ).slider({
+		range: true,
+		min: min_val,
+		max: max_val,
+		step: 86400,
+		values: [ min_val, max_val ]
+	});
+	$("slider-time").html(dt_from);
+	$("slider-time2").html(dt_to);
+	</script>
+	</body>
+	
+</html>
